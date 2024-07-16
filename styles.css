@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  color: blue;
+  font-size: 100px;
+}
+
+h2 {
+  color: green;
+  font-size: 50px;
+}
+
+h3 {
+  color: red;
+  font-size: 30px;
+}
+
+button {
+  height: 70px;
+  width: 120px;
+  margin: 20px;
+  padding: 20px;
+  background-color: yellow;
+  color: purple;
+  font-weight: 900;
+  border-radius: 20px;
+  border-color: purple;
+  border-style: dotted;
+  text-align: center;
+}
+
+button:hover {
+  color: yellow;
+  background-color: purple;
+  height: 75px;
+  width: 130px;
+  transition: 100ms;
+  font-size: larger;
+  border-style: dotted;
+  border-color: yellow;
+}/*# sourceMappingURL=styles.css.map */
